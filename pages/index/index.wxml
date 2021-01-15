@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="btn-view">
+
+  <view class="text-res-view">
+    <text class="text-asr">{{asrRes}}</text>
+  </view>
+
+  <button class="btn-play" bindtap="playVoice" type="primary" disabled="{{tempFilePath === ''}}">播放录音</button>
+
+  <button class="btn-record" type="warn" bindtouchstart="beginRecord" bindtouchend="endRecord">长按开始录音, 松手停止录音</button>
+
+</view>

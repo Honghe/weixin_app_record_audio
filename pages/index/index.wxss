@@ -1,0 +1,22 @@
+/**index.wxss**/
+
+.btn-view {
+  bottom: 0;
+  position: fixed;
+  width: 750rpx;
+  padding: 180rpx 0;
+}
+
+.btn-play {
+  margin: 50rpx 0;
+}
+
+.text-res-view{
+  border: 2rpx green solid;
+  width: 750rpx;
+  height: 350rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
